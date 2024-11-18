@@ -1,0 +1,38 @@
+{
+  "name": "nango-github",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "A sample app for Nango-GitHub integration",
+  "dependencies": {
+    "@azure/ai-text-analytics": "^5.1.0",
+    "@azure/identity": "^4.2.1",
+    "@azure/openai": "^1.0.0-beta.12",
+    "axios": "^1.7.2",
+    "connect-mongo": "^5.1.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "html-pdf": "^3.0.1",
+    "markdown-it": "^14.1.0",
+    "marked": "^13.0.0",
+    "mdpdfmake": "^1.0.8",
+    "mongodb": "^6.7.0",
+    "nango": "^0.40.0",
+    "node-cron": "^3.0.3",
+    "openai": "^4.51.0",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0",
+    "pdf-lib": "^1.17.1",
+    "pdfkit": "^0.15.0",
+    "pdfmake": "^0.2.10",
+    "puppeteer": "^22.12.0",
+    "uuid": "^10.0.0"
+  }
+}

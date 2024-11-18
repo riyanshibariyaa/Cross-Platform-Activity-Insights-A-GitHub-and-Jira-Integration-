@@ -1,0 +1,18 @@
+integrations:  
+  - name: github  
+    provider: github  
+    client_id: ${GITHUB_CLIENT_ID}  
+    client_secret: ${GITHUB_CLIENT_SECRET}  
+    redirect_uri: ${GITHUB_REDIRECT_URI}  
+    scopes:  
+      - repo  
+      - user  
+integrations:  
+  - name: jira  
+    provider: atlassian  
+    client_id: ${JIRA_CLIENT_ID}  
+    client_secret: ${JIRA_CLIENT_SECRET}  
+    redirect_uri: ${JIRA_REDIRECT_URI}  
+    scopes:  
+      - read:jira-user  
+      - read:jira-work  
